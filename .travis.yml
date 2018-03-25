@@ -36,15 +36,15 @@ script:
   - ./gradlew assembleRelease
 
 before_deploy:
+  - ls app/build/outputs/apk/release/
   - ls app/build/outputs/apk/
-  - ls app/build/outputs/
 #  - mv app/build/outputs/apk/release.apk app/build/outputs/apk/lermaobs.apk
 
 deploy:              # 部署
   provider: releases # 部署到GitHub Release，除此之外，Travis CI还支持发布到fir.im、AWS、Google App Engine等
   api_key:           # 填写GitHub的token （Settings -> Personal access tokens -> Generate new token）
     secure: a39253fcad479662ffb3ea5ba3aad667a9e8bc49
-  file: app/build/outputs/apk/release.apk  # 部署文件路径
+  file: app/build/outputs/apk/release/app-release-unsigned.apk  # 部署文件路径
   skip_cleanup: false     # 设置为true以跳过清理,不然apk文件就会被清理
   on:     # 发布时机
     tags: true       # tags设置为true表示只有在有tag的情况下才部署
@@ -52,5 +52,5 @@ deploy:              # 部署
 after_success:
     - fir login 3b7dbeac6e6d90f8615df748b44c975a #fir账号的Token
     - fir me #打印身份信息,验证是否登录成功
-    - fir p app/build/outputs/apk/release.apk #自动发布应用至fir内测平台
+    - fir p app/build/outputs/apk/release/app-release-unsigned.apk  #自动发布应用至fir内测平台
 #    - curl -d "appid=10948&to=814073395@qq.com&subject=[自动通知] 安卓新版本$TRAVIS_TAG发布&project=u2c0r2&signature=$SUBMAIL_SIGN&vars={\"TRAVIS_REPO_SLUG\":\"$TRAVIS_REPO_SLUG\",\"TRAVIS_TAG\":\"$TRAVIS_TAG\",\"TAG_DESCRIPTION\":\"$(git cat-file tag $TRAVIS_TAG | awk 1 ORS='<br>')\"}" https://api.submail.cn/mail/xsend.json
