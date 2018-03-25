@@ -32,7 +32,7 @@ script:
   - ./gradlew assembleRelease
 
 before_deploy:
-  - mv app/build/outputs/apk/app-release.apk app/build/outputs/apk/buff.apk
+  - mv app/build/outputs/apk/debug/app-debug.apk  app/build/outputs/apk/buff.apk
 
 deploy:              # 部署
   provider: releases # 部署到GitHub Release，除此之外，Travis CI还支持发布到fir.im、AWS、Google App Engine等
@@ -44,6 +44,6 @@ deploy:              # 部署
     tags: true       # tags设置为true表示只有在有tag的情况下才部署
 
 after_deploy:
-- fir p app/build/outputs/apk/app-release.apk -T $FIR_TOKEN -c "`git cat-file tag $TRAVIS_TAG`"
+- fir p app/build/outputs/apk/buff.apk -T $FIR_TOKEN -c "`git cat-file tag $TRAVIS_TAG`"
 
 - curl -d "appid=10948&to=814073395@qq.com&subject=[自动通知] 安卓新版本$TRAVIS_TAG发布&project=u2c0r2&signature=$SUBMAIL_SIGN&vars={\"TRAVIS_REPO_SLUG\":\"$TRAVIS_REPO_SLUG\",\"TRAVIS_TAG\":\"$TRAVIS_TAG\",\"TAG_DESCRIPTION\":\"$(git cat-file tag $TRAVIS_TAG | awk 1 ORS='<br>')\"}" https://api.submail.cn/mail/xsend.json
