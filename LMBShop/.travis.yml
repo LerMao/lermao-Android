@@ -37,7 +37,7 @@ before_deploy:
 deploy:              # 部署
   provider: releases # 部署到GitHub Release，除此之外，Travis CI还支持发布到fir.im、AWS、Google App Engine等
   api_key:           # 填写GitHub的token （Settings -> Personal access tokens -> Generate new token）
-    secure: a7153477029da9a8eb56119c611988f8662bffc5
+    secure: adc171d60213373155884ab4c71ff605cd3636f3
   file: app/build/outputs/apk/buff.apk   # 部署文件路径
   skip_cleanup: true     # 设置为true以跳过清理,不然apk文件就会被清理
   on:     # 发布时机
