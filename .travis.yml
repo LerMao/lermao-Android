@@ -50,5 +50,5 @@ deploy:              # 部署
 after_success:
     - fir login 3b7dbeac6e6d90f8615df748b44c975a #fir账号的Token
     - fir me #打印身份信息,验证是否登录成功
-    - fir p app/build/outputs/apk/app-release.apk #自动发布应用至fir内测平台
+    - fir p app/build/outputs/apk/lermaobs.apk #自动发布应用至fir内测平台
 #    - curl -d "appid=10948&to=814073395@qq.com&subject=[自动通知] 安卓新版本$TRAVIS_TAG发布&project=u2c0r2&signature=$SUBMAIL_SIGN&vars={\"TRAVIS_REPO_SLUG\":\"$TRAVIS_REPO_SLUG\",\"TRAVIS_TAG\":\"$TRAVIS_TAG\",\"TAG_DESCRIPTION\":\"$(git cat-file tag $TRAVIS_TAG | awk 1 ORS='<br>')\"}" https://api.submail.cn/mail/xsend.json
