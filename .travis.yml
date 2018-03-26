@@ -33,7 +33,7 @@ deploy:
   api_key:
     secure: VY2Dk9RDsEs1UXG2tyGF6DlHMItUWyH5qGc6yoQ9aaq6Mziil/tRKMy61Anu0PzhlQXXIZ2tOiMWmNXsDWQKxt11Zjb2lZ2eTeiVn95V1M7KwBGU/5dL0z3O+JSWevj6XfgyMPxwwKY0ceVrklVejlx7dS8JHHUY723rATjo8ARLXwk9T3H2/7OrxlbCs12Lx7ZjL75d3dqcQbJ96vCRJdSOfUtzqw7UYFcdkY7EZxcqXRwX1RQm2hb+PlmD8eKzfVR3AqclhDDGwXMhIaCOwpqB/K6SYvDf0J5k8tdjC3WFaY0rjJsmgGGbec9SqSfbMsCrZvY9iE2Ig1zjLc4xW7MGhPic4DZ/hMjGhy0cU90T6j25+WKIFphPD/udVN2L5ffVfX1z6dfS2I6Q6y0PKtVHve5nd0BtQBOj6vLX8F7v1t7JBSwmmR6+FRjGvRuQ4IXPfjzhFbI0CXPBOe8oHl6+sL/1N3XGzDI0kgJkmdmB0jmec+N5srgAmPaqzuBNiO9RIq9KbMD69ZTU7PGH4d+k5ZsuaiH0+9iBvANVGXzZh0y+6rgsOSGX0ZY3+ZJlw4rli1V5WAVs5keCoMI/P9THbQDiBavJv1Evjaf26FlJ/ExgZew+PrJYGFNC1IvqMLv0eNRva2vSSpCQOwQFELM0ofpDtBYT5QlH09wL3R0=
     skip_cleanup: true     # 设置为true以跳过清理,不然apk文件就会被清理
-    file: app/build/outputs/apk/release/app-release-unsigned.apk
+    file: app/build/outputs/apk/release/lermaobs.apk
   on:
      tags: true
 after_success:
