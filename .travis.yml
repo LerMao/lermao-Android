@@ -26,16 +26,13 @@ script:
 - "./gradlew assembleRelease"
 before_deploy:
 - ls app/build/outputs/apk/release/
-- mv app/build/outputs/apk/release/app-release-unsigned.apk  app/build/outputs/apk/release/lermaobs.apk
-- ls app/build/outputs/apk/release/
+#- mv app/build/outputs/apk/release/app-release-unsigned.apk  app/build/outputs/apk/release/lermaobs.apk
+#- ls app/build/outputs/apk/release/
 deploy:
   provider: releases
   api_key:
-    secure: VY2Dk9RDsEs1UXG2tyGF6DlHMItUWyH5qGc6yoQ9aaq6Mziil/tRKMy61Anu0PzhlQXXIZ2tOiMWmNXsDWQKxt11Zjb2lZ2eTeiVn95V1M7KwBGU/5dL0z3O+JSWevj6XfgyMPxwwKY0ceVrklVejlx7dS8JHHUY723rATjo8ARLXwk9T3H2/7OrxlbCs12Lx7ZjL75d3dqcQbJ96vCRJdSOfUtzqw7UYFcdkY7EZxcqXRwX1RQm2hb+PlmD8eKzfVR3AqclhDDGwXMhIaCOwpqB/K6SYvDf0J5k8tdjC3WFaY0rjJsmgGGbec9SqSfbMsCrZvY9iE2Ig1zjLc4xW7MGhPic4DZ/hMjGhy0cU90T6j25+WKIFphPD/udVN2L5ffVfX1z6dfS2I6Q6y0PKtVHve5nd0BtQBOj6vLX8F7v1t7JBSwmmR6+FRjGvRuQ4IXPfjzhFbI0CXPBOe8oHl6+sL/1N3XGzDI0kgJkmdmB0jmec+N5srgAmPaqzuBNiO9RIq9KbMD69ZTU7PGH4d+k5ZsuaiH0+9iBvANVGXzZh0y+6rgsOSGX0ZY3+ZJlw4rli1V5WAVs5keCoMI/P9THbQDiBavJv1Evjaf26FlJ/ExgZew+PrJYGFNC1IvqMLv0eNRva2vSSpCQOwQFELM0ofpDtBYT5QlH09wL3R0=
-    file: app/build/outputs/apk/release/lermaobs.apk
-  on:
-    all_branches: true
-    tags: true
+    secure: BEn5aL4MVykDc0jSYUprMRziEDOdb0OWXJQksDhJ7KYCVUVraXcjecUbFdfJ0k/MnqrdHoa9aPthB/WjobVh6u8VuHfGd9+mXD/bpLZX8iUCkJ9mS250KE7HBDuM5+s2NCNLiI7pVXDx+gSuGrXgVJOO+V7gharSeei3TzTbVsczO6vTFJpjwbcte7ZHctd1Pm9UplgkhTDwk5EzCZqOoFee0WX04VkTASXe0F0uDfRaxU8+dBS/GL/SLYqEpnXF9lCQGIhdlM8hhxrMAksPTpuRvdmNxF1RU7RgyhGWCbGV1cilfoWpHXG2anEtfaGxEE3UXpaHiJgiqSFq/AgvBx/PGy8y5j3vqlIfKP3kOwIOFmOE9FwmLyB04UvekAZMbyqSd4ADr51HNonFbR3sYQ/q5bG3AUQj8mhyU1QebKlvyoz1WleFPfAiIFKC48/f1uPNQlrm0/tJz+u1+G2Umgp+g5TNdKdWH0ZxZx07D/wOfA5BC20xssf2DTgc4eu8gTzgCvmFmpEXchF0wur00/suwWZ551lUqkO5BQl0FNu8JP3VgtUStbgwe6tNNgIWUYFhRBx1S5VOkpfWLQdpKoJ2cHYm/GVqk/Lp1huRr2ph3DTc2Gtq4fdFR0MGy1j0p5FyjUd9V5QRftNC3ZwugfvW0lwYXQ83QqkVa81ey4g=
+  file: app/build/outputs/apk/release/app-release-unsigned.apk
 after_success:
 - fir login 3b7dbeac6e6d90f8615df748b44c975a
 - fir me
