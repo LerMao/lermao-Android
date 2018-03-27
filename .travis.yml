@@ -30,6 +30,7 @@ before_deploy:
 #- ls app/build/outputs/apk/release/
 deploy:
   provider: releases
+  skip_cleanup: true
   on:
       repo: LerMao/lermao-Android
       tags: true
