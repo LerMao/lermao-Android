@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 
 import com.newrelic.agent.android.NewRelic;
 import com.oneapm.agent.android.OneApmAgent;
+import com.umeng.analytics.MobclickAgent;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         NewRelic.withApplicationToken(
                 "AA0bf8eebbd32ed6764ef75773c45b6518216cd986"
         ).start(this.getApplication());
+        MobclickAgent.onEvent(MainActivity.this, "EvenLogin");
     }
 
 
