@@ -4,6 +4,14 @@ apply plugin: 'newrelic'
 
 android {
     compileSdkVersion 26
+    signingConfigs {
+        release {
+            keyAlias ReleasekeyAlias
+            keyPassword ReleasekeyPassword
+            storeFile file(ReleasestoreFile)
+            storePassword ReleasestorePassword
+        }
+    }
     defaultConfig {
         applicationId "com.lermao.lmbshop"
         minSdkVersion 19
@@ -14,10 +22,59 @@ android {
     }
     buildTypes {
         release {
+            // 如果没有提供混淆规则文件，则设置默认的混淆规则文件（SDK/tools/proguard/proguard-android.txt）
+            pseudoLocalesEnabled true
+            // 显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+            signingConfig signingConfigs.release
             minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            android.applicationVariants.all { variant ->
+                variant.outputs.all {
+                    outputFileName = "gradleTest_v${defaultConfig.versionName}_${releaseTime()}_${variant.flavorName}.apk"
+                }
+            }
+        }
+        debug {
+            signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    flavorDimensions "default"
+    productFlavors {
+        dev {
+            dimension "default"
+            applicationId "com.lermao.lmbshop"
+            manifestPlaceholders = [
+                    LERMAO_CHANNEL_VALUE: "lmbs_dev",
+                    app_icon            :"@mipmap/ic_launcher"
+            ]
+        }
+        product {
+            dimension "default"
+            applicationId "com.lermao.lmbshop"
+            manifestPlaceholders = [
+                    LERMAO_CHANNEL_VALUE: "lmbs_product",
+                    app_icon            :"@mipmap/ic_launcher"
+            ]
+        }
+        gray {
+            dimension "default"
+            applicationId "com.lermao.lmbshop"
+            manifestPlaceholders = [
+                    LERMAO_CHANNEL_VALUE: "lmbs_gray",
+                    app_icon            :"@mipmap/ic_launcher"
+
+            ]
+        }
+
+    }
+}
+
+
+def releaseTime() {
+    return new Date().format("yyyy-MM-dd", TimeZone.getTimeZone("UTC"))
 }
 
 dependencies {
