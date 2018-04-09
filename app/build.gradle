@@ -31,7 +31,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             android.applicationVariants.all { variant ->
                 variant.outputs.all {
-                    outputFileName = "gradleTest_v${defaultConfig.versionName}_${releaseTime()}_${variant.flavorName}.apk"
+                    outputFileName = "LermaoBS_v${defaultConfig.versionName}_${releaseTime()}_${variant.flavorName}.apk"
                 }
             }
         }
