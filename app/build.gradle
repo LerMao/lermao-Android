@@ -48,7 +48,7 @@ android {
             applicationId "com.lermao.lmbshop"
             manifestPlaceholders = [
                     LERMAO_CHANNEL_VALUE: "lmbs_dev",
-                    app_icon            :"@mipmap/ic_launcher"
+                    app_icon            : "@mipmap/ic_launcher"
             ]
         }
         product {
@@ -56,19 +56,18 @@ android {
             applicationId "com.lermao.lmbshop"
             manifestPlaceholders = [
                     LERMAO_CHANNEL_VALUE: "lmbs_product",
-                    app_icon            :"@mipmap/ic_launcher"
+                    app_icon            : "@mipmap/ic_launcher"
             ]
         }
-        gray {
+
+        mock {
             dimension "default"
             applicationId "com.lermao.lmbshop"
             manifestPlaceholders = [
-                    LERMAO_CHANNEL_VALUE: "lmbs_gray",
-                    app_icon            :"@mipmap/ic_launcher"
-
+                    LERMAO_CHANNEL_VALUE: "lmbs_mock",
+                    app_icon            : "@mipmap/ic_launcher"
             ]
         }
-
     }
 }
 
