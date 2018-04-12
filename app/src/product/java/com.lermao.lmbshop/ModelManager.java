@@ -1,5 +1,8 @@
 package com.lermao.lmbshop;
 
+import com.lermao.lmbshop.model.IUserModel;
+import com.lermao.lmbshop.model.UserModel;
+
 /**
  * lermao-Android
  * Created by 小宇宙 on

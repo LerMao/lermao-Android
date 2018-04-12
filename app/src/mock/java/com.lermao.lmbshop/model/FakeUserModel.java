@@ -1,5 +1,7 @@
 package com.lermao.lmbshop.model;
 
+import android.os.Handler;
+
 /**
  * lermao-Android
  * Created by 小宇宙 on
