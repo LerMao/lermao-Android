@@ -1,0 +1,287 @@
+-- Merging decision tree log ---
+application
+INJECTED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:18:5-41:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5d128fc9378fbda96da3e66f631d157f\AndroidManifest.xml:26:5-59:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5d128fc9378fbda96da3e66f631d157f\AndroidManifest.xml:26:5-59:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\3aeb02c86c779c4c8546c6fc9a03a90d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\3aeb02c86c779c4c8546c6fc9a03a90d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\15a25302b230e34f787cd097ff2d985e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\15a25302b230e34f787cd097ff2d985e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\40653fe3b33e6186828e5bff47c960c8\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\40653fe3b33e6186828e5bff47c960c8\AndroidManifest.xml:9:5-20
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-analyzer-1.5.4.aar\432baebcd4e37718149c56e8eabeadc8\AndroidManifest.xml:23:5-20
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-analyzer-1.5.4.aar\432baebcd4e37718149c56e8eabeadc8\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\09531eb17460d5559bb015bd2a0d3835\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\09531eb17460d5559bb015bd2a0d3835\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\51bcbe1452ce01609e12fb3a8434ccf9\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\51bcbe1452ce01609e12fb3a8434ccf9\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\90a613e294b99e3fb821eeb1164a207c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\90a613e294b99e3fb821eeb1164a207c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\a7348c9f74f166aca7f78be48728e4ea\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\a7348c9f74f166aca7f78be48728e4ea\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\e6622099d244b155fd39e84839fd4256\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\e6622099d244b155fd39e84839fd4256\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\675ebfa4a62e08e89b3761e57a94caea\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\675ebfa4a62e08e89b3761e57a94caea\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\9e4e47398da7c7aa903e3013add40067\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\9e4e47398da7c7aa903e3013add40067\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\81973dad54959c2b84df837e4d2accd8\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\81973dad54959c2b84df837e4d2accd8\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\5edfccf0eabfabdcc421fab08d535940\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\5edfccf0eabfabdcc421fab08d535940\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a1078dc6cbc826ff4b4d56a7afee3830\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a1078dc6cbc826ff4b4d56a7afee3830\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\aae5c3260cc017867bea10b1db3e6921\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\aae5c3260cc017867bea10b1db3e6921\AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:21:9-35
+	android:label
+		ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:20:9-41
+	android:allowBackup
+		ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:19:9-35
+	android:icon
+		INJECTED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:22:9-35
+	android:theme
+		ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:24:9-40
+	android:name
+		ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:23:9-38
+meta-data#LERMAO_CHANNEL
+INJECTED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:26:9-28:55
+	android:value
+		INJECTED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:28:13-52
+	android:name
+		ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:27:13-42
+manifest
+ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:2:1-43:12
+MERGED from [com.tencent.bugly:crashreport:2.6.6] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\crashreport-2.6.6.aar\6f75883f805e3b50c069c3025b49ffcf\AndroidManifest.xml:2:1-9:12
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5d128fc9378fbda96da3e66f631d157f\AndroidManifest.xml:17:1-61:12
+MERGED from [com.android.support:design:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\3aeb02c86c779c4c8546c6fc9a03a90d\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\15a25302b230e34f787cd097ff2d985e\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\40653fe3b33e6186828e5bff47c960c8\AndroidManifest.xml:2:1-11:12
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-analyzer-1.5.4.aar\432baebcd4e37718149c56e8eabeadc8\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\09531eb17460d5559bb015bd2a0d3835\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\51bcbe1452ce01609e12fb3a8434ccf9\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\90a613e294b99e3fb821eeb1164a207c\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\a7348c9f74f166aca7f78be48728e4ea\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\e6622099d244b155fd39e84839fd4256\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\675ebfa4a62e08e89b3761e57a94caea\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\9e4e47398da7c7aa903e3013add40067\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\81973dad54959c2b84df837e4d2accd8\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\5edfccf0eabfabdcc421fab08d535940\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a1078dc6cbc826ff4b4d56a7afee3830\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\aae5c3260cc017867bea10b1db3e6921\AndroidManifest.xml:17:1-30:12
+INJECTED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:2:1-43:12
+	package
+		ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:2:11-39
+		INJECTED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:2:1-43:12
+		INJECTED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:2:1-43:12
+		INJECTED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:3:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:10:5-75
+	android:name
+		ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:10:22-72
+uses-permission#android.permission.GET_TASKS
+ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:12:22-65
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:15:22-73
+uses-permission#android.permission.READ_LOGS
+ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:16:5-68
+	android:name
+		ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:16:22-65
+uses-sdk
+INJECTED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml
+MERGED from [com.tencent.bugly:crashreport:2.6.6] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\crashreport-2.6.6.aar\6f75883f805e3b50c069c3025b49ffcf\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:crashreport:2.6.6] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\crashreport-2.6.6.aar\6f75883f805e3b50c069c3025b49ffcf\AndroidManifest.xml:5:5-7:41
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5d128fc9378fbda96da3e66f631d157f\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5d128fc9378fbda96da3e66f631d157f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\3aeb02c86c779c4c8546c6fc9a03a90d\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\3aeb02c86c779c4c8546c6fc9a03a90d\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\15a25302b230e34f787cd097ff2d985e\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\15a25302b230e34f787cd097ff2d985e\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\40653fe3b33e6186828e5bff47c960c8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\40653fe3b33e6186828e5bff47c960c8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-analyzer-1.5.4.aar\432baebcd4e37718149c56e8eabeadc8\AndroidManifest.xml:21:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-analyzer:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-analyzer-1.5.4.aar\432baebcd4e37718149c56e8eabeadc8\AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\09531eb17460d5559bb015bd2a0d3835\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\09531eb17460d5559bb015bd2a0d3835\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\51bcbe1452ce01609e12fb3a8434ccf9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\51bcbe1452ce01609e12fb3a8434ccf9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\90a613e294b99e3fb821eeb1164a207c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\90a613e294b99e3fb821eeb1164a207c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\a7348c9f74f166aca7f78be48728e4ea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\a7348c9f74f166aca7f78be48728e4ea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\e6622099d244b155fd39e84839fd4256\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\e6622099d244b155fd39e84839fd4256\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\675ebfa4a62e08e89b3761e57a94caea\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\675ebfa4a62e08e89b3761e57a94caea\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\9e4e47398da7c7aa903e3013add40067\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\9e4e47398da7c7aa903e3013add40067\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\81973dad54959c2b84df837e4d2accd8\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\81973dad54959c2b84df837e4d2accd8\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\5edfccf0eabfabdcc421fab08d535940\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\5edfccf0eabfabdcc421fab08d535940\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a1078dc6cbc826ff4b4d56a7afee3830\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a1078dc6cbc826ff4b4d56a7afee3830\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\aae5c3260cc017867bea10b1db3e6921\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\aae5c3260cc017867bea10b1db3e6921\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\3aeb02c86c779c4c8546c6fc9a03a90d\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml
+activity#com.lermao.lmbshop.MainActivity
+ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:31:9-37:20
+	android:name
+		ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:31:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:32:13-36:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:33:17-68
+	android:name
+		ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:35:17-76
+	android:name
+		ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:35:27-74
+meta-data#UMENG_APPKEY
+ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:39:9-90
+	android:value
+		ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:39:20-60
+	android:name
+		ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:39:61-88
+meta-data#UMENG_CHANNEL
+ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:40:9-72
+	android:value
+		ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:40:20-41
+	android:name
+		ADDED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:40:42-70
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5d128fc9378fbda96da3e66f631d157f\AndroidManifest.xml:23:5-80
+IMPLIED from C:\Users\PENG\Desktop\lermao-Android\app\src\main\AndroidManifest.xml:2:1-43:12 reason: com.squareup.leakcanary requested WRITE_EXTERNAL_STORAGE
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5d128fc9378fbda96da3e66f631d157f\AndroidManifest.xml:23:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5d128fc9378fbda96da3e66f631d157f\AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5d128fc9378fbda96da3e66f631d157f\AndroidManifest.xml:24:22-78
+service#com.squareup.leakcanary.internal.HeapAnalyzerService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5d128fc9378fbda96da3e66f631d157f\AndroidManifest.xml:27:9-30:45
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5d128fc9378fbda96da3e66f631d157f\AndroidManifest.xml:30:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5d128fc9378fbda96da3e66f631d157f\AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5d128fc9378fbda96da3e66f631d157f\AndroidManifest.xml:28:13-80
+service#com.squareup.leakcanary.DisplayLeakService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5d128fc9378fbda96da3e66f631d157f\AndroidManifest.xml:31:9-34:45
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5d128fc9378fbda96da3e66f631d157f\AndroidManifest.xml:34:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5d128fc9378fbda96da3e66f631d157f\AndroidManifest.xml:33:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5d128fc9378fbda96da3e66f631d157f\AndroidManifest.xml:32:13-70
+activity#com.squareup.leakcanary.internal.DisplayLeakActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5d128fc9378fbda96da3e66f631d157f\AndroidManifest.xml:36:9-49:20
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5d128fc9378fbda96da3e66f631d157f\AndroidManifest.xml:41:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5d128fc9378fbda96da3e66f631d157f\AndroidManifest.xml:38:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5d128fc9378fbda96da3e66f631d157f\AndroidManifest.xml:40:13-71
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5d128fc9378fbda96da3e66f631d157f\AndroidManifest.xml:39:13-54
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5d128fc9378fbda96da3e66f631d157f\AndroidManifest.xml:43:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5d128fc9378fbda96da3e66f631d157f\AndroidManifest.xml:42:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5d128fc9378fbda96da3e66f631d157f\AndroidManifest.xml:37:13-80
+activity#com.squareup.leakcanary.internal.RequestStoragePermissionActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5d128fc9378fbda96da3e66f631d157f\AndroidManifest.xml:50:9-58:68
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5d128fc9378fbda96da3e66f631d157f\AndroidManifest.xml:56:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5d128fc9378fbda96da3e66f631d157f\AndroidManifest.xml:52:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5d128fc9378fbda96da3e66f631d157f\AndroidManifest.xml:55:13-82
+	android:excludeFromRecents
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5d128fc9378fbda96da3e66f631d157f\AndroidManifest.xml:53:13-46
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5d128fc9378fbda96da3e66f631d157f\AndroidManifest.xml:54:13-54
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5d128fc9378fbda96da3e66f631d157f\AndroidManifest.xml:58:13-65
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5d128fc9378fbda96da3e66f631d157f\AndroidManifest.xml:57:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.4] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.4.aar\5d128fc9378fbda96da3e66f631d157f\AndroidManifest.xml:51:13-93
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\3aeb02c86c779c4c8546c6fc9a03a90d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\15a25302b230e34f787cd097ff2d985e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\15a25302b230e34f787cd097ff2d985e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\09531eb17460d5559bb015bd2a0d3835\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\09531eb17460d5559bb015bd2a0d3835\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\51bcbe1452ce01609e12fb3a8434ccf9\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\51bcbe1452ce01609e12fb3a8434ccf9\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\90a613e294b99e3fb821eeb1164a207c\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\90a613e294b99e3fb821eeb1164a207c\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\a7348c9f74f166aca7f78be48728e4ea\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\a7348c9f74f166aca7f78be48728e4ea\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\e6622099d244b155fd39e84839fd4256\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\e6622099d244b155fd39e84839fd4256\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\675ebfa4a62e08e89b3761e57a94caea\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\675ebfa4a62e08e89b3761e57a94caea\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\9e4e47398da7c7aa903e3013add40067\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\9e4e47398da7c7aa903e3013add40067\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\81973dad54959c2b84df837e4d2accd8\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\81973dad54959c2b84df837e4d2accd8\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\5edfccf0eabfabdcc421fab08d535940\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\5edfccf0eabfabdcc421fab08d535940\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a1078dc6cbc826ff4b4d56a7afee3830\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a1078dc6cbc826ff4b4d56a7afee3830\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\3aeb02c86c779c4c8546c6fc9a03a90d\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\3aeb02c86c779c4c8546c6fc9a03a90d\AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\aae5c3260cc017867bea10b1db3e6921\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\aae5c3260cc017867bea10b1db3e6921\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\PENG\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\aae5c3260cc017867bea10b1db3e6921\AndroidManifest.xml:26:13-58

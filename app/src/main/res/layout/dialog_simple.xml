@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:background="#fff"
+    android:minWidth="200dp"
+    android:minHeight="50dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:text="title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="message"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tvMessage"
+        android:layout_below="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvCancel"
+        android:text="取消"
+        android:layout_alignBaseline="@+id/tvDetermine"
+        android:layout_marginRight="14dp"
+        android:layout_toLeftOf="@+id/tvDetermine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvDetermine"
+        android:layout_below="@+id/tvMessage"
+        android:text="确定"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
