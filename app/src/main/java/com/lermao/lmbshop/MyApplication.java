@@ -21,6 +21,7 @@ public class MyApplication extends Application {
     public void onCreate() {
         super.onCreate();
         application = this;
+        Global.init(getApplicationContext());
         CrashReport.initCrashReport(getApplicationContext(), "8a21464fb2", false);
         if (LeakCanary.isInAnalyzerProcess(this)) {
             // This process is dedicated to LeakCanary for heap analysis.
