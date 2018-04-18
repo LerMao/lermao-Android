@@ -8,7 +8,6 @@ import io.reactivex.annotations.NonNull;
 import io.reactivex.functions.Consumer;
 import io.reactivex.schedulers.Schedulers;
 
-
 /**
  * Created by PENG on 2018/4/11.
  */

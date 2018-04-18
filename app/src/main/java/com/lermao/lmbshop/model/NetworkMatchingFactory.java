@@ -1,5 +1,6 @@
 package com.lermao.lmbshop.model;
 
+
 import io.reactivex.Flowable;
 
 /**
