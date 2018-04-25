@@ -1,6 +1,7 @@
 package com.lermao.lmbshop.ui.activity;
 
 
+import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
@@ -35,6 +36,8 @@ public class HomepageActivity extends BaseActivity implements HomepageInterface 
     ViewFlipper viewFlipper;
     @BindView(R.id.rvModular)
     RecyclerView rvModular;
+    @BindView(R.id.tvTodayMoney)
+    TextView tvTodayMoney;
     private HomepageTodayDataAdapter todayDataAdapter;
     private HomepagePresenter presenter;
 
@@ -51,28 +54,27 @@ public class HomepageActivity extends BaseActivity implements HomepageInterface 
         Global.setStatusBarColor(this, Global.getColor(R.color.homepage_statusBar_bg_color));
         presenter = new HomepagePresenter(this);
         initRecyclerTodayData();
-
-
     }
 
     private void initRecyclerTodayData() {
         todayDataAdapter = new HomepageTodayDataAdapter(getApplicationContext(), null);
         rvTodayData.setAdapter(todayDataAdapter);
         rvTodayData.setLayoutManager(new GridLayoutManager(getApplicationContext(), 2));
-        rvTodayData.addItemDecoration(new UIDecoration(1, Global.getColor(R.color.white)));
+        rvTodayData.addItemDecoration(new UIDecoration(UIDecoration.MIDDLE_MIDDLE_HORIZONTAL, Global.getColor(R.color.white)));
         presenter.requestTodayData();
     }
 
     private void initRecyclerModular(List<TodayData.ModularBean> modularBeanList) {
-        HomepageModularAdapter modularAdapter = new HomepageModularAdapter(this,modularBeanList);
+        HomepageModularAdapter modularAdapter = new HomepageModularAdapter(this, modularBeanList);
         rvModular.setAdapter(modularAdapter);
-        rvModular.setLayoutManager(new GridLayoutManager(getApplicationContext(),2));
+        rvModular.setLayoutManager(new GridLayoutManager(getApplicationContext(), 2));
+        rvModular.addItemDecoration(new UIDecoration(UIDecoration.CROSS, Global.getColor(R.color.homepage_rv_modular_line_color)));
     }
 
     private void initViewFlipper(List<String> bannerList) {
         viewFlipper.removeAllViews();
         ListIterator<String> stringListIterator = bannerList.listIterator();
-        int color = Global.toColorFromString("#4891ef");
+        int color = Global.getColor(R.color.homepage_viewflipper_text_color);
         while (stringListIterator.hasNext()) {
             String item = stringListIterator.next();
             TextView textView = (TextView) Global.inflate(R.layout.simple_list_item_1);
@@ -128,11 +130,26 @@ public class HomepageActivity extends BaseActivity implements HomepageInterface 
         todayDataAdapter.setDatas(todayData.getDataBeanList());
         initViewFlipper(todayData.getBannerList());
         initRecyclerModular(todayData.getModularBeanList());
+        tvTodayMoney.setText(todayData.getMoney());
     }
-
 
 
     public HomepagePresenter getPresenter() {
         return presenter;
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if (presenter != null) {
+            presenter.detachView();
+        }
+    }
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        // TODO: add setContentView(...) invocation
+        ButterKnife.bind(this);
     }
 }

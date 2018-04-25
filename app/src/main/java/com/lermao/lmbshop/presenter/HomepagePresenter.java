@@ -44,14 +44,15 @@ public class HomepagePresenter extends BasePresenter<HomepageInterface> implemen
                         bannerList.add("中国2030年或实现载人登月 下一目标：送人到火星");
 
                         List<TodayData.ModularBean> modularBeanList = new ArrayList<>();
-                        modularBeanList.add(new TodayData.ModularBean("订单管理",String.valueOf(R.mipmap.homepage_ic_order)));
-                        modularBeanList.add(new TodayData.ModularBean("商品管理",String.valueOf(R.mipmap.homepage_ic_commodity)));
-                        modularBeanList.add(new TodayData.ModularBean("资产管理",String.valueOf(R.mipmap.homepage_ic_assets)));
-                        modularBeanList.add(new TodayData.ModularBean("短信消息",String.valueOf(R.mipmap.homepage_ic_mail)));
+                        modularBeanList.add(new TodayData.ModularBean("订单管理",R.mipmap.homepage_ic_order));
+                        modularBeanList.add(new TodayData.ModularBean("商品管理",R.mipmap.homepage_ic_commodity));
+                        modularBeanList.add(new TodayData.ModularBean("资产管理",R.mipmap.homepage_ic_assets));
+                        modularBeanList.add(new TodayData.ModularBean("短信消息",R.mipmap.homepage_ic_mail));
 
                         todayData.setDataBeanList(data);
                         todayData.setBannerList(bannerList);
                         todayData.setModularBeanList(modularBeanList);
+                        todayData.setMoney("2333.00");
                         onHttpSuccess(todayData);
                     }
                 });

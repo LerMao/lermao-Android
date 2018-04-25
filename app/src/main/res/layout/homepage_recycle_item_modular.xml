@@ -4,11 +4,11 @@
                 android:layout_height="wrap_content"
                 xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <com.lermao.lmbshop.ui.view.ChassisImageView
+    <ImageView
+        android:padding="15dp"
+        android:background="@drawable/homepage_item_iv_bg"
         android:src="@mipmap/homepage_ic_order"
         android:id="@+id/ivModular"
-        app:chassis_color="@color/homepage_modular_item_bg_color"
-        app:src="@mipmap/homepage_ic_order"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true" />

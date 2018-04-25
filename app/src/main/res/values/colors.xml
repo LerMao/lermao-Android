@@ -12,4 +12,6 @@
     <color name="homepage_modular_item_bg_color">#2189f0</color>
     <color name="homepage_main_head_text_color">#ffffff</color>
     <color name="homepage_rv_modular_text_color">#131313</color>
+    <color name="homepage_rv_modular_line_color">#d6d7dc</color>
+    <color name="homepage_viewflipper_text_color">#4891ef</color>
 </resources>

@@ -14,6 +14,15 @@ public class TodayData {
 
     private List<ModularBean> modularBeanList;
 
+    private String money;
+
+    public String getMoney() {
+        return money;
+    }
+
+    public void setMoney(String money) {
+        this.money = money;
+    }
 
     public List<ModularBean> getModularBeanList() {
         return modularBeanList;
@@ -76,15 +85,16 @@ public class TodayData {
 
     public static class ModularBean{
         private String title;
-        private String imageUrl;
+        private int id;
+
+        public ModularBean(String title, int id) {
+            this.title = title;
+            this.id = id;
+        }
 
         public ModularBean() {
         }
 
-        public ModularBean(String title, String imageUrl) {
-            this.title = title;
-            this.imageUrl = imageUrl;
-        }
 
         public String getTitle() {
             return title;
@@ -94,19 +104,19 @@ public class TodayData {
             this.title = title;
         }
 
-        public String getImageUrl() {
-            return imageUrl;
+        public int getId() {
+            return id;
         }
 
-        public void setImageUrl(String imageUrl) {
-            this.imageUrl = imageUrl;
+        public void setId(int id) {
+            this.id = id;
         }
 
         @Override
         public String toString() {
             return "ModularBean{" +
                     "title='" + title + '\'' +
-                    ", imageUrl='" + imageUrl + '\'' +
+                    ", id=" + id +
                     '}';
         }
     }

@@ -40,7 +40,7 @@ public class HomepageModularHolder extends BaseHolderRV<TodayData.ModularBean>{
 
     @Override
     protected void onRefreshView(TodayData.ModularBean bean, int position) {
-//        ((HomepageActivity)context).getPresenter().loadPicture(ivModular,R.drawable.leak_canary_icon);
+        ivModular.setImageResource(bean.getId());
         tvModular.setText(bean.getTitle());
     }
 }

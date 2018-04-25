@@ -12,22 +12,26 @@
         android:background="@color/homepage_head_bg_color"
         android:layout_width="match_parent"
         android:layout_height="200dp">
-        <TextView
-            android:id="@+id/tvName"
+        <RelativeLayout
             android:layout_margin="@dimen/homepage_main_head_margin"
-            android:textColor="@color/homepage_main_head_text_color"
-            android:text="@string/homepage_main_name"
-            android:textSize="@dimen/homepage_main_name"
-            android:layout_centerHorizontal="true"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvName"
+                android:textColor="@color/homepage_main_head_text_color"
+                android:text="@string/homepage_main_name"
+                android:textSize="@dimen/homepage_main_name"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
 
-        <ImageView
-            android:layout_margin="@dimen/homepage_main_head_margin"
-            android:layout_alignParentRight="true"
-            android:src="@mipmap/homepage_ic_settings"
-            android:layout_width="22dp"
-            android:layout_height="22dp"/>
+            <ImageView
+                android:layout_centerInParent="true"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/homepage_ic_settings"
+                android:layout_width="22dp"
+                android:layout_height="22dp"/>
+        </RelativeLayout>
 
         <TextView
             android:id="@+id/tvToday"
@@ -42,7 +46,7 @@
             android:layout_centerHorizontal="true"
             android:layout_below="@+id/tvToday"
             android:id="@+id/tvTodayMoney"
-            android:text="5000.00"
+            android:text="0.00"
             android:textColor="@color/homepage_main_head_text_color"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
