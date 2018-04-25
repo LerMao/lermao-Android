@@ -1,4 +1,4 @@
-package com.lermao.lmbshop;
+package com.lermao.lmbshop.base;
 
 /**
  * Created by PENG on 2018/4/18.

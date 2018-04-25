@@ -5,4 +5,11 @@
     <color name="colorAccent">#FF4081</color>
 
     <color name="white">#FFFFFF</color>
+
+    <color name="homepage_head_bg_color">#273a52</color>
+    <color name="homepage_statusBar_bg_color">#0f161c</color>
+    <color name="homepage_today_bg_color">#1e314a</color>
+    <color name="homepage_modular_item_bg_color">#2189f0</color>
+    <color name="homepage_main_head_text_color">#ffffff</color>
+    <color name="homepage_rv_modular_text_color">#131313</color>
 </resources>

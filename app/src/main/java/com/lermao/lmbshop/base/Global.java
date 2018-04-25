@@ -1,4 +1,4 @@
-package com.lermao.lmbshop;
+package com.lermao.lmbshop.base;
 
 import android.app.Activity;
 import android.content.Context;
@@ -8,6 +8,7 @@ import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
+import android.view.Display;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,6 +17,7 @@ import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 
 import java.lang.reflect.Field;
+import java.lang.reflect.Method;
 import java.util.Random;
 
 import static android.content.Context.INPUT_METHOD_SERVICE;
@@ -245,6 +247,41 @@ public class Global {
             activity.getWindow().setStatusBarColor(statusColor);
             return;
         }
+    }
+
+    /**
+     * @param context
+     * @return 获取屏幕原始尺寸高度，包括虚拟功能键高度
+     */
+    public static int getTotalHeight(Context context) {
+        int dpi = 0;
+        WindowManager windowManager = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
+        Display display = windowManager.getDefaultDisplay();
+        DisplayMetrics displayMetrics = new DisplayMetrics();
+        @SuppressWarnings("rawtypes")
+        Class c;
+        try {
+            c = Class.forName("android.view.Display");
+            @SuppressWarnings("unchecked")
+            Method method = c.getMethod("getRealMetrics", DisplayMetrics.class);
+            method.invoke(display, displayMetrics);
+            dpi = displayMetrics.heightPixels;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return dpi;
+    }
+
+    /**
+     * @param context
+     * @return 获取屏幕内容高度不包括虚拟按键
+     */
+    public static int getScreenHeight(Context context) {
+        WindowManager wm = (WindowManager) context
+                .getSystemService(Context.WINDOW_SERVICE);
+        DisplayMetrics outMetrics = new DisplayMetrics();
+        wm.getDefaultDisplay().getMetrics(outMetrics);
+        return outMetrics.heightPixels;
     }
 
 }

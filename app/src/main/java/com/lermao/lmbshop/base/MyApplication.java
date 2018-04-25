@@ -1,4 +1,4 @@
-package com.lermao.lmbshop;
+package com.lermao.lmbshop.base;
 
 import android.app.Application;
 

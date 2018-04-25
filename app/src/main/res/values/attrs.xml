@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ChassisImageView">
+        <attr name="src" format="reference"></attr>
+        <attr name="chassis_color" format="color"></attr>
+    </declare-styleable>
+</resources>

@@ -1,6 +1,8 @@
-package com.lermao.lmbshop;
+package com.lermao.lmbshop.base;
 
 import android.widget.ImageView;
+
+import com.lermao.lmbshop.R;
 
 import java.lang.ref.Reference;
 import java.lang.ref.WeakReference;
@@ -14,13 +16,23 @@ import java.lang.ref.WeakReference;
 public abstract class BasePresenter<T> {
     protected Reference<T> mView;
 
-    protected void loadPicture(ImageView imageView,String url){
+    public void loadPicture(ImageView imageView,String url){
         GlideApp.with(Global.mContext)
                 .asBitmap()
                 .load(url)
                 .fitCenter()
-//                .error(R.drawable.image_fail)
-//                .load(R.drawable.image_load)
+                .error(R.drawable.image_fail)
+                .load(R.drawable.image_load)
+                .into(imageView);
+    }
+
+    public void loadPicture(ImageView imageView,Integer url){
+        GlideApp.with(Global.mContext)
+                .asBitmap()
+                .load(url)
+                .fitCenter()
+                .error(R.drawable.image_fail)
+                .load(R.drawable.image_load)
                 .into(imageView);
     }
 

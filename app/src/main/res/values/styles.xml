@@ -18,4 +18,9 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
 
+    
+    <style name="Horizontal_Line_Gray">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">#f0f2f5</item>
+    </style>
 </resources>

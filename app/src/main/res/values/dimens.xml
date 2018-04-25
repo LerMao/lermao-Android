@@ -2,4 +2,10 @@
     <dimen name="app_bar_height">180dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="homepage_main_name">20sp</dimen>
+    <dimen name="homepage_main_head_margin">10dp</dimen>
+    <dimen name="homepage_main_todaymoney">30sp</dimen>
+    <dimen name="homepage_main_today">12sp</dimen>
+    <dimen name="homepage_main_banner_margin">10dp</dimen>
 </resources>

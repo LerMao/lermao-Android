@@ -1,8 +1,8 @@
-package com.lermao.lmbshop;
+package com.lermao.lmbshop.base;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 
 import com.umeng.analytics.MobclickAgent;
 
@@ -14,10 +14,20 @@ import com.umeng.analytics.MobclickAgent;
  * Copyright © 2018年 xyz.com All rights reserved.
  */
 
-public class BaseActivity extends AppCompatActivity {
+public abstract class BaseActivity extends AppCompatActivity implements IUIOperation{
+
+    protected View root;
+
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        setContentView(getLayoutRes());
+        // 系统的一个根布局，可以查找到activity布局的所有的子控件
+        root = findViewById(android.R.id.content);
+        initView();
+        initData();
+        initListener();
     }
 
     @Override
