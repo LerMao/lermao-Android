@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     android:orientation="vertical"
-    android:padding="10dp"
+    android:padding="@dimen/x10"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <TextView
         android:id="@+id/tvType"
-        android:layout_marginBottom="5dp"
+        android:layout_marginBottom="@dimen/x5"
         android:textColor="#ffffff"
         android:layout_gravity="center"
-        android:textSize="12sp"
+        android:textSize="@dimen/x12"
         android:text="今日付款单数"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
@@ -18,7 +18,7 @@
         android:id="@+id/tvValue"
         android:textColor="#ffffff"
         android:layout_gravity="center"
-        android:textSize="18sp"
+        android:textSize="@dimen/x18"
         android:text="100"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>

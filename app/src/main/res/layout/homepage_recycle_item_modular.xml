@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                xmlns:app="http://schemas.android.com/apk/res-auto">
+                android:layout_height="wrap_content">
 
     <ImageView
-        android:padding="15dp"
-        android:background="@drawable/homepage_item_iv_bg"
-        android:src="@mipmap/homepage_ic_order"
         android:id="@+id/ivModular"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true" />
+        android:layout_centerInParent="true"
+        android:background="@drawable/homepage_item_iv_bg"
+        android:padding="@dimen/x15"
+        android:src="@mipmap/homepage_ic_order"/>
 
     <TextView
         android:id="@+id/tvModular"
@@ -19,6 +19,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/ivModular"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="5dp"
-        android:textColor="@color/homepage_rv_modular_text_color" />
+        android:layout_marginTop="@dimen/x5"
+        android:textColor="@color/homepage_rv_modular_text_color"/>
 </RelativeLayout>

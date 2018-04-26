@@ -11,16 +11,16 @@
     <RelativeLayout
         android:background="@color/homepage_head_bg_color"
         android:layout_width="match_parent"
-        android:layout_height="200dp">
+        android:layout_height="@dimen/x200">
         <RelativeLayout
-            android:layout_margin="@dimen/homepage_main_head_margin"
+            android:layout_margin="@dimen/x10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <TextView
                 android:id="@+id/tvName"
                 android:textColor="@color/homepage_main_head_text_color"
                 android:text="@string/homepage_main_name"
-                android:textSize="@dimen/homepage_main_name"
+                android:textSize="@dimen/x20"
                 android:layout_centerInParent="true"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
@@ -29,20 +29,20 @@
                 android:layout_centerInParent="true"
                 android:layout_alignParentRight="true"
                 android:src="@mipmap/homepage_ic_settings"
-                android:layout_width="22dp"
-                android:layout_height="22dp"/>
+                android:layout_width="@dimen/x22"
+                android:layout_height="@dimen/x22"/>
         </RelativeLayout>
 
         <TextView
             android:id="@+id/tvToday"
-            android:textSize="@dimen/homepage_main_today"
+            android:textSize="@dimen/x12"
             android:textColor="@color/homepage_main_head_text_color"
             android:text="@string/homepage_main_today"
             android:layout_centerInParent="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <TextView
-            android:textSize="@dimen/homepage_main_todaymoney"
+            android:textSize="@dimen/x30"
             android:layout_centerHorizontal="true"
             android:layout_below="@+id/tvToday"
             android:id="@+id/tvTodayMoney"
@@ -56,7 +56,7 @@
         android:background="@color/homepage_today_bg_color"
         android:id="@+id/rvTodayData"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+        android:layout_height="wrap_content"/>
 
     <LinearLayout
         android:orientation="horizontal"
@@ -64,7 +64,7 @@
         android:layout_width="match_parent"
         android:layout_height="40dp">
         <ImageView
-            android:layout_margin="@dimen/homepage_main_banner_margin"
+            android:layout_margin="@dimen/x10"
             android:layout_gravity="center"
             android:src="@mipmap/homepage_ic_horn"
             android:layout_width="20dp"
@@ -81,7 +81,7 @@
 
     <View
         style="@style/Horizontal_Line_Gray"
-        android:layout_height="20dp"/>
+        android:layout_height="@dimen/x20"/>
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rvModular"
         android:layout_width="match_parent"
