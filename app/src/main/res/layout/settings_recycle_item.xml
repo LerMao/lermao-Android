@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@color/settings_recycler_item_bg_color"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="@dimen/x10"
+    android:layout_marginTop="@dimen/x20"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/x50">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:textColor="@color/seetings_recycler_item_title_text_color"
+        android:text="店铺管理"
+        android:textSize="@dimen/x16"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tvSettings"
+        android:paddingRight="@dimen/x10"
+        android:textSize="@dimen/x16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:src="@drawable/ic_rightarrow"
+        android:layout_width="@dimen/x20"
+        android:layout_height="@dimen/x20"/>
+</LinearLayout>

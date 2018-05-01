@@ -14,4 +14,14 @@
     <color name="homepage_rv_modular_text_color">#131313</color>
     <color name="homepage_rv_modular_line_color">#d6d7dc</color>
     <color name="homepage_viewflipper_text_color">#4891ef</color>
+
+    <color name="settings_bg_color">#e4e5e6</color>
+    <color name="settings_title_text_color">#6fa5f2</color>
+    <color name="settings_title_text_bg">#ffffff</color>
+    <color name="settings_recycler_item_bg_color">#ffffff</color>
+    <color name="seetings_recycler_item_title_text_color">#323232</color>
+    <color name="settings_recycler_item_select_text_color">#9ec0f5</color>
+    <color name="settings_recycler_item_noteselect_text_color">#dedede</color>
+    <color name="settings_exit_text_color">#ffffff</color>
+    <color name="settings_exit_bg_color">#0b7ced</color>
 </resources>

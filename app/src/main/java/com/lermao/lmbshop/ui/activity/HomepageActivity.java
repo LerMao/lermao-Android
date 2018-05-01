@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.ViewFlipper;
 
@@ -38,6 +39,8 @@ public class HomepageActivity extends BaseActivity implements HomepageInterface 
     RecyclerView rvModular;
     @BindView(R.id.tvTodayMoney)
     TextView tvTodayMoney;
+    @BindView(R.id.ivSettings)
+    ImageView ivSettings;
     private HomepageTodayDataAdapter todayDataAdapter;
     private HomepagePresenter presenter;
 
@@ -87,7 +90,7 @@ public class HomepageActivity extends BaseActivity implements HomepageInterface 
 
     @Override
     public void initListener() {
-
+        ivSettings.setOnClickListener(this);
     }
 
     @Override
@@ -98,7 +101,9 @@ public class HomepageActivity extends BaseActivity implements HomepageInterface 
 
     @Override
     public void onClick(View v) {
-
+        if(v.getId() == R.id.ivSettings){
+            Global.startActivity(SettingsActivity.class);
+        }
     }
 
 

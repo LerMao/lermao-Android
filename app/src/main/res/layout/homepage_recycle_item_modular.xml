@@ -6,8 +6,8 @@
 
     <ImageView
         android:id="@+id/ivModular"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/x60"
+        android:layout_height="@dimen/x60"
         android:layout_centerInParent="true"
         android:background="@drawable/homepage_item_iv_bg"
         android:padding="@dimen/x15"

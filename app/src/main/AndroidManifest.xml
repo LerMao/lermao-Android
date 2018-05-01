@@ -1,36 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="com.lermao.lmbshop"
-          xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.lermao.lmbshop">
 
-    <!--发送性能数据到服务器需要该权限-->
-    <uses-permission android:name="android.permission.INTERNET" />
-    <!--发送性能数据到服务器需要该权限-->
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <!--sdk读取设备识别码需要该权限-->
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <!--【非必选】若想知道 Crash 的时候，后台有哪些任务运行，请引入该权限-->
-    <uses-permission android:name="android.permission.GET_TASKS" />
-
-
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.READ_LOGS" />
+    <!-- 发送性能数据到服务器需要该权限 -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- 发送性能数据到服务器需要该权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <!-- sdk读取设备识别码需要该权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <!-- 【非必选】若想知道 Crash 的时候，后台有哪些任务运行，请引入该权限 -->
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
 
     <application
+        android:name=".base.MyApplication"
         android:allowBackup="true"
+        android:icon="${app_icon}"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:icon="${app_icon}"
-        android:name=".base.MyApplication"
         android:theme="@style/AppTheme">
-
         <meta-data
             android:name="LERMAO_CHANNEL"
-            android:value="${LERMAO_CHANNEL_VALUE}" />
+            android:value="${LERMAO_CHANNEL_VALUE}"/>
 
-
-        <activity android:name=".ui.activity.HomepageActivity"
-            android:theme="@style/AppTheme.NoActionBar"
-            >
+        <activity
+            android:name=".ui.activity.HomepageActivity"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -38,8 +34,17 @@
             </intent-filter>
         </activity>
 
-        <meta-data android:value="5abf98f6b27b0a1a5500019a" android:name="UMENG_APPKEY"/>
-        <meta-data android:value="UMENG" android:name="UMENG_CHANNEL"/>
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5abf98f6b27b0a1a5500019a"/>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="UMENG"/>
+
+        <activity android:name=".ui.activity.SettingsActivity"
+                  android:theme="@style/AppTheme.NoActionBar"
+            >
+        </activity>
     </application>
 
 </manifest>
